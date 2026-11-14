@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "game",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5178"],
+      "port": 5178
+    },
+    {
+      "name": "char-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5179", "--directory", "C:/Users/HANKERZ/AppData/Local/Temp/claude/54cced95796aa75a/69bbf19d-5df6-4a65-9ded-f8ea5f22848c/scratchpad/preview"],
+      "port": 5179
+    }
+  ]
+}
